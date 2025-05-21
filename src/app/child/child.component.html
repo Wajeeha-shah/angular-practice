@@ -1,0 +1,9 @@
+ <div class="box" [ngClass]="{bgreen:boxcolor=='green',bred:boxcolor=='red'}">
+    >
+
+    <input type="text" placeholder={{text}} #inputval>
+    <button (click)="count(inputval)">CREATE</button>
+    <div class="count" *ngIf="c">No of count {{c}}</div>
+</div>
+<ul>
+

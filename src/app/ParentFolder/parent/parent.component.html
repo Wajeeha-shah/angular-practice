@@ -1,0 +1,18 @@
+<h1>All Users</h1>
+<div>
+   <table>
+    <tr>
+        <th>
+            User Name
+        </th>
+         <th>
+          lastName
+        </th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+    </tr>
+   </table>
+</div>
+<router-outlet></router-outlet>
